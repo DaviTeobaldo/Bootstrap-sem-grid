@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AniTec</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="icon" href="img/logo_anime.jpg">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <nav class="navbar col-12 bg-dark navbar-expand-lg" data-bs-theme="dark" style="z-index:999;">
+    <div class="container-fluid col-11">
+      <a class="navbar-brand" href="#"><img src="img/logo_anime.jpg" class="rounded-circle" alt="" style="width: 45px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#alta">Em alta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notícias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lançamentos</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/hxh.png" class="d-block w-100 " alt="Foto de HXH">
+      </div>
+      <div class="carousel-item">
+        <img src="img/one_piece.jpg" class="d-block w-100" alt="Foto de One Piece">
+      </div>
+      <div class="carousel-item">
+        <img src="img/steins_gate.jpg" class="d-block w-100" alt="Foto de Steins gate">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--CARDS-->
+  <section class="mt-5">
+    <h2 class="text-center" id="alta">ANIMES EM ALTA</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 col-11 m-auto">
+      <div class="col">
+        <div class="card">
+          <img src="img/hunterxhunter.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Hunter X Hunter</h5>
+            <p class="card-text">Embarque em uma jornada épica junto a Gon Freecss em 'Hunter x Hunter'. Descubra segredos, enfrente desafios e explore um mundo repleto de mistérios e aventuras emocionantes!</p>
+            <a href="#" class="btn btn-primary w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#modal-1">Quero assistir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/cowboy_bebop.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Cowboy Bebop</h5>
+            <p class="card-text">Embarque em uma jornada épica junto a Spike Spegels em 'Cowboy Bebop'. Descubra este universo gigantesco, misterioso e tenebroso, a partir de aventuras e suspenses!</p>
+            <a href="#" class="btn btn-primary w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#modal-2">Quero assistir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/ashita_joe.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Ashita no Joe</h5>
+            <p class="card-text">"Entre no ringue com Joe em 'Ashita no Joe', uma jornada de superação e paixão pelo boxe. Testemunhe seu caminho de um jovem rebelde para um verdadeiro lutador, repleto de drama e emoções intensas."</p>
+            <a href="#" class="btn btn-primary w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#modal-3">Quero assistir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/one_piece_card.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">One Piece</h5>
+            <p class="card-text">
+              Levante âncora com os Chapéus de Palha em 'One Piece'! Navegue pelos mares traiçoeiros, desvende ilhas exóticas e busque o tesouro supremo, enquanto cria laços inquebráveis e enfrenta piratas temíveis neste emocionante conto de amizade e aventura sem limites.</p>
+              <a href="#" class="btn btn-primary w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#modal-4">Quero assistir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/mob_psycho.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Mob Psycho 100</h5>
+            <p class="card-text">Explore poderes paranormais e humor hilariante em 'Mob Psycho 100'. Acompanhe Mob, um jovem com habilidades psíquicas.</p>
+            <a href="#" class="btn btn-primary w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#modal-5">Quero assistir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/monster.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Monster</h5>
+            <p class="card-text">Adentre um suspense psicológico implacável em 'Monster'. Siga o Dr. Tenma em sua busca pela verdade.</p>
+            <a href="#" class="btn btn-primary w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#modal-6">Quero assistir</a>          
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    
+  </section>
+  <!--MODAIS-->
+  <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Hunter x Hunter</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Os caçadores se dedicam a realizar tarefas perigosas, desde a travessia de territórios desconhecidos do mundo até a localização de itens e monstros raros. Antes de se tornar um Hunter, é preciso passar no Exame Hunter - um processo de seleção de alto risco no qual a maioria dos candidatos acaba deficiente ou pior, falecido.
+            Participantes ambiciosos que desafiam o notório exame carregam sua própria razão. O que motiva Gon Freecss, de 12 anos, é encontrar Ging, seu pai e ele próprio um caçador. Acreditando que encontrará seu pai tornando-se um Caçador, Gon dá o primeiro passo para trilhar o mesmo caminho.
+            Durante o Exame Hunter, Gon faz amizade com o estudante de medicina Leorio Paladiknight, o vingativo Kurapika e o ex-assassino Killua Zoldyck. Embora seus motivos sejam muito diferentes um do outro, eles se unem para um objetivo comum e começam a se aventurar em um mundo perigoso.</p>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjmgPzlz9-AAxXXqZUCHRQ8BQYQFnoECAgQAQ&url=https%3A%2F%2Fwww.crunchyroll.com%2Fpt-br%2Fseries%2FGY3VKX1MR%2Fhunter-x-hunter&usg=AOvVaw12PMf7PGsaj42OWgxMalQD&opi=89978449" class="btn btn-primary">Quero assistir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal-2" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cowboy Bebop</h5>
+          <a href="" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+        </div>
+        <div class="modal-body">
+          <p>O crime é atemporal. No ano de 2071, a humanidade se expandiu pela galáxia, preenchendo a superfície de outros planetas com assentamentos como os da Terra. Essas novas sociedades são atormentadas por assassinatos, uso de drogas e roubos, e bandidos intergalácticos são caçados por um número crescente de caçadores de recompensas durões.
+
+            Spike Spiegel e Jet Black perseguem criminosos pelo espaço para ganhar a vida humildemente. Sob seu comportamento pateta e indiferente, Spike é assombrado pelo peso de seu passado violento. Enquanto isso, Jet administra suas próprias memórias conturbadas enquanto cuida de Spike e do Bebop, seu navio. A dupla é acompanhada pela bela vigarista Faye Valentine, criança estranha Edward Wong Hau Pepelu Tivrusky IV, e Ein, um Welsh Corgi bioengenharia.
+            
+            Enquanto desenvolvem laços e trabalham para capturar um elenco colorido de criminosos, a vida da equipe do Bebop é interrompida por uma ameaça do passado de Spike. Enquanto a trama maníaca de um rival continua a se desenrolar, Spike deve escolher entre a vida com sua nova família ou a vingança por suas antigas feridas.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="https://www.netflix.com/br/title/80001305" class="btn btn-primary">Quero assistir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal-3" tabindex="-3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Ashita no Joe</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Joe Yabuki é um jovem problemático, cuja única solução para os problemas é dar socos neles. O que lhe falta em boas maneiras e disciplina, ele compensa com suas habilidades de luta autodidata.
+
+            Um dia, enquanto vagava pelas favelas de Doya, Joe se mete em uma briga com a gangue local. Embora em grande desvantagem numérica, ele os derrota sem esforço, chamando a atenção de Danpei Tange - um ex-treinador de boxe que se tornou alcoólatra. Vendo seu potencial, ele se oferece para treinar Joe para se tornar o maior boxeador do Japão. A princípio, Joe descarta Danpei como um bêbado sem esperança; mas depois que o treinador salva sua vida, ele concorda em morar com ele e aprender a arte do boxe. Infelizmente, a personalidade de Joe o torna um aluno indisciplinado, e ele frequentemente volta aos seus velhos hábitos.
+            
+            Para sobreviver ao duro mundo de sua nova carreira, Joe precisa confiar em seu mentor e dominar as técnicas que lhe foram ensinadas. No entanto, o caminho para se tornar um boxeador profissional é repleto de lutas que testarão sua coragem até o fim.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="https://www.primevideo.com/detail/0GJQAOWPBR79FRCWOHCWYHPZ4Q/ref=atv_dp?language=pt_BR" class="btn btn-primary">Quero assistir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal-4" tabindex="-4" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">One Piece</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Mal sobrevivendo em um barril depois de passar por um terrível redemoinho no mar, o despreocupado Monkey D. Luffy acaba a bordo de um navio sob ataque de temíveis piratas. Apesar de ser um adolescente de aparência ingênua, ele não deve ser subestimado. Inigualável em batalha, Luffy é um pirata que persegue resolutamente o cobiçado tesouro de One Piece e o título de Rei dos Piratas que vem com ele.
+
+            O falecido Rei dos Piratas, Gol D. Roger, agitou o mundo antes de sua morte, revelando o paradeiro de seu tesouro de riquezas e desafiando todos a obtê-lo. Desde então, inúmeros piratas poderosos navegaram em mares perigosos para o premiado One Piece, apenas para nunca mais voltar. Embora Luffy não tenha uma tripulação e um navio adequado, ele é dotado de uma habilidade sobre-humana e um espírito inquebrantável que o torna não apenas um adversário formidável, mas também uma inspiração para muitos.
+            
+            Enquanto enfrenta inúmeros desafios com um grande sorriso no rosto, Luffy reúne companheiros únicos para acompanhá-lo em seu ambicioso empreendimento, abraçando juntos perigos e maravilhas em sua aventura única na vida.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="https://onepieceex.net" class="btn btn-primary">Quero assistir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal-5" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Mob Psycho 100</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Shigeo "Mob" Kageyama agora está amadurecendo e entendendo seu papel como um psíquico sobrenatural que tem o poder de afetar drasticamente o sustento de outras pessoas. Ele e seu mentor Reigen Arataka continuam a lidar com pedidos sobrenaturais de clientes, seja exorcizando espíritos malignos ou enfrentando lendas urbanas que assombram os cidadãos.
+
+            Embora o fluxo de trabalho permaneça o mesmo, Mob não está mais apenas seguindo Reigen cegamente. Com todas as suas experiências como um psíquico ridiculamente forte, as aventuras sobrenaturais de Mob agora têm mais peso para eles. As coisas assumem um tom sério e sombrio, pois os perigos que Mob e Reigen enfrentam são muito mais tangíveis e perturbadores do que nunca.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="https://www.crunchyroll.com/pt-br/series/GY190DKQR/mob-psycho-100" class="btn btn-primary">Quero assistir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal-6" tabindex="-6" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Monster</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>O Dr. Kenzou Tenma, um neurocirurgião de elite recentemente noivo da filha do diretor do hospital, está a caminho de ascender na hierarquia do hospital. Isso é até que uma noite, um evento aparentemente pequeno muda a vida do Dr. Tenma para sempre. Enquanto se preparava para realizar uma cirurgia em alguém, ele recebe uma ligação do diretor do hospital dizendo-lhe para trocar de paciente e, em vez disso, realizar uma cirurgia cerebral que salvou a vida de um artista famoso. Seus colegas médicos, noiva e o diretor do hospital aplaudem sua realização; mas por causa da troca, um pobre trabalhador imigrante morre, causando uma crise de consciência no Dr. Tenma.
+
+            Então, quando surge uma situação semelhante, o Dr. Tenma se mantém firme e opta por realizar uma cirurgia no jovem Johan Liebert em vez do prefeito da cidade. Infelizmente, essa escolha leva a sérias ramificações para o Dr. Tenma - perder sua posição social sendo uma delas. No entanto, com a misteriosa morte do diretor e de outros dois médicos, a posição do Dr. Tenma é restaurada. Sem provas para condená-lo, ele é solto e passa a ocupar o cargo de diretor do hospital.
+            
+            Nove anos depois, quando o Dr. Tenma salva a vida de um criminoso, seu passado volta para assombrá-lo - mais uma vez, ele fica cara a cara com o monstro que operou. Ele agora deve embarcar em uma busca para reparar o estrago espalhado por aquele que ele salvou.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="https://www.netflix.com/br/title/81409869" class="btn btn-primary">Quero assistir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center p-3 mt-3 bg-body-secondary">
+    <section>
+      <a href="#!" class="btn"><i class="bi bi-whatsapp"></i></a>
+      <a href="#!" class="btn"><i class="bi bi-twitter"></i></a>
+      <a href="#!" class="btn"><i class="bi bi-instagram"></i></a>
+    </section>
+    <div class="p-3">
+      2023 <i class="bi bi-c-circle"></i> Desenvolvido por Davi Oliveira Teobaldo | Projeto fictício sem fins comerciais.
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
